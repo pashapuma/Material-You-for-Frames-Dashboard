@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Logo Colors -->
+    <color name="logoAccent">#fafafa</color>
+    <color name="logoAccent_i_x">#68A1ED</color>
+    <color name="logoAccent_o_c">#E55E5B</color>
+    <color name="logoAccent_s">#F7C044</color>
+    <color name="logoAccent_p">#5AB06C</color>
+    <color name="accentThumb">#495C77</color>
+    <color name="accentThumbOn">#88b3fc</color>
+
+    <color name="accentIndicator">#88b3fc</color>
+    <color name="backgroundRound">#282828</color>
+    <color name="backgroundNavigation">#282828</color>
+</resources>

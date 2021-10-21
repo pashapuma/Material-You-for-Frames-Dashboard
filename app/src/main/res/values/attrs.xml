@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LandscapeImageView">
+        <attr name="heightDivider" format="reference|dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PortraitImageView">
+        <attr name="heightMultiplier" format="reference|dimension" />
+        <attr name="overlayColor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="FramesBottomNavigationView">
+        <attr name="forceRightColor" format="reference|boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="StatefulRecyclerView">
+        <attr name="stateRootLayout" format="reference" />
+        <attr name="stateTextView" format="reference" />
+        <attr name="stateImageView" format="reference" />
+        <attr name="stateProgressBar" format="reference" />
+    </declare-styleable>
+
+    <attr name="customFontNormal" format="reference" />
+    <attr name="customFontBold" format="reference" />
+
+    <attr name="snackbarBackgroundColor" format="reference|color" />
+    <attr name="snackbarTextColor" format="reference|color" />
+    <attr name="snackbarButtonColor" format="reference|color" />
+    <attr name="itemActiveIndicatorStyle" format="reference"/>
+  <declare-styleable name="NavigationBarActiveIndicator">
+
+    <!--The color to be used for the navigation item's active indicator. -->
+    <attr name="android:color"/>
+    <!--The shape appearance style to be used for the navigation items' active indicator. -->
+    <attr name="android:width"/>
+    <!--The desired height of the navigation items' active indicator. -->
+    <attr name="android:height"/>
+    <!--The start and end margin used by the navigation items' active indicator. -->
+    <attr name="shapeAppearance"/>
+    <!--The desired width of the navigation items' active indicator. -->
+    <attr name="marginHorizontal" format="dimension"/>
+  </declare-styleable>
+  <declare-styleable name="NavigationBarView">
+    <attr name="itemPaddingTop" format="dimension"/>
+    <!-- The distance from the bottom of the label to the bottom of the navigation
+         bar item.-->
+    <attr name="itemPaddingBottom" format="dimension"/>
+  </declare-styleable>
+    <declare-styleable name="FABsMenuLayout">
+        <attr name="fabs_menu_overlayColor" format="color"/>
+        <attr name="fabs_menu_clickableOverlay" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TitleFAB">
+        <attr name="fab_title" format="string"/>
+        <attr name="fab_title_backgroundColor" format="color"/>
+        <attr name="fab_title_textColor" format="color"/>
+        <attr name="fab_title_textPadding" format="dimension"/>
+        <attr name="fab_title_cornerRadius" format="dimension"/>
+        <attr name="fab_enableTitleClick" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="FABsMenu">
+        <attr name="fab_menuMargins" format="dimension"/>
+        <attr name="fab_menuTopMargin" format="dimension"/>
+        <attr name="fab_menuBottomMargin" format="dimension"/>
+        <attr name="fab_menuRightMargin" format="dimension"/>
+        <attr name="fab_menuLeftMargin" format="dimension"/>
+
+        <attr name="fab_moreButtonRippleColor" format="color"/>
+        <attr name="fab_moreButtonBackgroundColor" format="color"/>
+
+        <attr name="fab_moreButtonSize" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+
+        <attr name="fab_moreButtonPlusIcon" format="reference"/>
+
+        <attr name="fab_labelsPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+
+        <attr name="fab_expandDirection" format="enum">
+            <enum name="up" value="0"/>
+            <enum name="down" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

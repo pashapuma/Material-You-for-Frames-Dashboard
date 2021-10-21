@@ -1,0 +1,8 @@
+<resources>
+  <style name="MyApp.SplashScreen.NoActionBar" >
+  <item name="windowActionBar">false</item>
+  <item name="windowNoTitle">true</item>
+</style>
+  <style name="MyApp.SplashScreen.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+  <style name="MyApp.SplashScreen.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

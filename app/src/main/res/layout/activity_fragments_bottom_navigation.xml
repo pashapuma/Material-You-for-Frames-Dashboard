@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:transitionName="appbar"
+        android:elevation="0dp"
+        app:elevation="0dp"
+        tools:ignore="UnusedAttribute">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="?toolbarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="?colorPrimary"
+            android:minHeight="?actionBarSize"
+            app:titleTextAppearance="@style/TextAppearance.Frames.ToolbarTitle" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/fragments_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/boc_header_background_2"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <dev.jahir.frames.ui.widgets.FramesBottomNavigationView
+        android:id="@+id/bottom_navigation"
+        style="?bottomNavigationStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/navigation_header_background"
+        app:forceRightColor="false"
+        android:elevation="0.0dip"
+        app:elevation="0.0dip"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

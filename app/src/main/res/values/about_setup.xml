@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,MissingTranslation">
+    <string-array name="credits_photos" formatted="false" tools:ignore="TypographyDashes">
+        <item>https://raw.githubusercontent.com/pashapuma/Wallpapers_app/master/IMG_20191114_001904.jpg</item>
+    </string-array>
+
+    <string-array name="credits_titles">
+        <item>PashaPuma</item>
+    </string-array>
+
+    <string-array name="credits_descriptions">
+        <item>Wallpapers Creator</item>
+    </string-array>
+
+    <string-array name="credits_buttons">
+        <item>Twitter|Telegram|All</item>
+    </string-array>
+
+    <string-array name="credits_links">
+        <item>https://twitter.com/pashapuma1|https://t.me/pashapuma_apps|https://play.google.com/store/apps/dev?id=6218933727384977479</item>
+    </string-array>
+</resources>

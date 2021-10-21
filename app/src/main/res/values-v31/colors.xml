@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Logo Colors -->
+    <color name="logoAccent">@android:color/system_neutral1_900</color>
+    <color name="logoAccent_i_x">@android:color/system_accent1_300</color>
+    <color name="logoAccent_o_c">@android:color/system_accent3_400</color>
+    <color name="logoAccent_s">@android:color/system_accent2_300</color>
+    <color name="logoAccent_p">@android:color/system_accent3_300</color>
+
+    <!-- Light Theme Colors -->
+    <color name="primary">@android:color/system_neutral2_100</color>
+    <color name="primaryDark">@android:color/system_neutral2_100</color>
+    <color name="onPrimary">#de000000</color>
+
+    <color name="icon_bg">#D6EFFE</color>
+
+    <color name="accent">@android:color/system_accent1_300</color>
+    <color name="accentThumbOn">@android:color/system_accent1_300</color>
+    <color name="accentThumbOff">@android:color/system_accent2_400</color>
+    <color name="accentThumb">@android:color/system_accent2_200</color>
+    <color name="onAccent">@android:color/system_neutral2_100</color>
+    <color name="accentIndicator">@android:color/system_accent1_200</color>
+    <color name="accentIndicatorIconSelected">@android:color/system_neutral2_700</color>
+
+    <color name="surface">@android:color/system_neutral2_100</color>
+    <color name="onSurface">#de000000</color>
+    <color name="onSurfaceVariant">#8a000000</color>
+
+    <color name="background">@android:color/system_neutral2_100</color>
+    <color name="backgroundRound">@android:color/system_neutral2_50</color>
+    <color name="backgroundNavigation">@android:color/system_accent1_100</color>
+    <color name="onBackground">#de000000</color>
+
+    <color name="snackbarBackgroundColor">@android:color/system_neutral1_800</color>
+    <color name="snackbarTextColor">@android:color/system_neutral1_100</color>
+    <color name="snackbarButtonColor">@android:color/system_accent1_200</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="darkThemePrimary">@android:color/system_neutral1_900</color>
+    <color name="darkThemePrimaryDark">@android:color/system_neutral1_900</color>
+    <color name="darkThemeOnPrimary">@android:color/system_neutral1_100</color>
+
+    <color name="darkThemeAccent">@android:color/system_accent2_300</color>
+    <color name="darkThemeOnAccent">@android:color/system_neutral1_100</color>
+
+    <color name="darkThemeSurface">@android:color/system_neutral1_900</color>
+    <color name="darkThemeOnSurface">@android:color/system_neutral1_100</color>
+    <color name="darkThemeOnSurfaceVariant">#b3fafafa</color>
+
+    <color name="darkThemeBackground">@android:color/system_neutral1_900</color>
+    <color name="darkThemeBackgroundRound">@android:color/system_neutral1_800</color>
+    <color name="darkThemeBackgroundNavigation">@android:color/system_accent2_800</color>
+    <color name="darkThemeOnBackground">#b3fafafa</color>
+
+    <color name="darkThemeSnackbarBackgroundColor">@android:color/system_neutral1_100</color>
+    <color name="darkThemeSnackbarTextColor">#de000000</color>
+    <color name="darkThemeSnackbarButtonColor">@android:color/system_accent2_300</color>
+
+    <!-- Amoled Theme Colors -->
+    <color name="amoledThemePrimary">#000000</color>
+    <color name="amoledThemePrimaryDark">#000000</color>
+    <color name="amoledThemeOnPrimary">@android:color/system_neutral1_100</color>
+
+    <color name="amoledThemeAccent">@android:color/system_accent2_300</color>
+    <color name="amoledThemeOnAccent">#de000000</color>
+
+    <color name="amoledThemeSurface">#212121</color>
+    <color name="amoledThemeOnSurface">@android:color/system_neutral1_100</color>
+    <color name="amoledThemeBackground">#101010</color>
+
+    <color name="amoledThemeOnSurfaceVariant">#b3fafafa</color>
+    <color name="amoledThemeOnBackground">#b3fafafa</color>
+
+    <color name="amoledThemeSnackbarBackgroundColor">@android:color/system_neutral1_100</color>
+    <color name="amoledThemeSnackbarTextColor">#de000000</color>
+    <color name="amoledThemeSnackbarButtonColor">@android:color/system_accent2_300</color>
+
+</resources>

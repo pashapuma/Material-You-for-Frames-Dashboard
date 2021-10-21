@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="grids_spacing">23dp</dimen>
+    <dimen name="cards_elevation">0dp</dimen>
+    <dimen name="small_components_corner_size">15dp</dimen>
+    <dimen name="cards_corner_size">28dp</dimen>
+    <dimen name="medium_components_corner_size">26dp</dimen>
+    <dimen name="large_components_corner_size">26dp</dimen>
+    <dimen name="splash_logo_bottom">66dp</dimen>
+    <dimen name="splash_text_bottom">58dp</dimen>
+    <dimen name="splash_brand_bottom">88dp</dimen>
+    <dimen name="gm3_bottom_nav_item_padding_top">12dp</dimen>
+    <dimen name="gm3_bottom_nav_item_padding_bottom">16dp</dimen>
+    <dimen name="google_bottomnavigation_elevation">3dp</dimen>
+
+	<dimen name="gm3_bottom_nav_item_active_indicator_height">32dp</dimen>
+	<dimen name="gm3_bottom_nav_item_active_indicator_width">64dp</dimen>
+	<dimen name="gm3_bottom_nav_item_active_indicator_margin_horizontal">4dp</dimen>
+</resources>

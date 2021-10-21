@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Learn how to setup this file at:
+        https://github.com/jahirfiquitiva/Frames/wiki/Setting-custom-styles
+    -->
+    <style name="MyApp" />
+
+    <!--
+        Splash screen theme follow device's theme
+        You can change the parent to any of these:
+        - Frames.SplashScreen
+        - Frames.SplashScreen.Amoled
+    -->
+    <style name="MyApp.SplashScreen" parent="Frames.SplashScreen">
+        <item name="customFontBold">@font/google_sans_medium</item>
+        <item name="customFontNormal">@font/google_sans_display</item>
+    </style>
+
+    <!-- Don't change the parent style -->
+    <style name="MyApp.Default" parent="Frames.Default">
+        <item name="bottomNavigationStyle">@style/Widget.Frames.BottomNavigationView</item>
+        <item name="customFontBold">@font/manrope_bold_fam</item>
+        <item name="customFontNormal">@font/manrope_normal_fam</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Don't change the parent style -->
+    <style name="MyApp.Default.Amoled" parent="Frames.Default.Amoled">
+        <item name="bottomNavigationStyle">@style/Widget.Frames.BottomNavigationView</item>
+        <item name="customFontBold">@font/manrope_bold_fam</item>
+        <item name="customFontNormal">@font/manrope_normal_fam</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Don't change the parent style -->
+    <style name="MyApp.BottomNavigationView" parent="Widget.Frames.BottomNavigationView">
+        <!--
+            Switch bottom navigation labels visibility style
+            You can use any of there:
+            - auto
+            - labeled
+            - unlabeled
+            - selected
+            Learn more: https://developer.android.com/reference/com/google/android/material/bottomnavigation/LabelVisibilityMode
+        -->
+        <item name="labelVisibilityMode">auto</item>
+    </style>
+
+    <style name="Frames.Default" parent="Frames.SplashScreen">
+        <item name="android:windowBackground">@color/background</item>
+
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Frames.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Frames.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Frames.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Frames.Headline6</item>
+
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Frames.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Frames.Subtitle2</item>
+
+        <item name="textAppearanceButton">@style/TextAppearance.Frames.Button</item>
+
+        <item name="textAppearanceBody1">@style/TextAppearance.Frames.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Frames.Body2</item>
+
+        <item name="textAppearanceCaption">@style/TextAppearance.Frames.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Frames.Overline</item>
+
+        <item name="android:dialogTheme">@style/Frames.Dialogs</item>
+        <item name="android:alertDialogTheme">@style/Frames.Dialogs</item>
+        <item name="materialAlertDialogTheme">@style/Frames.Dialogs</item>
+
+        <item name="materialCardViewStyle">@style/Widget.Frames.MaterialCardView</item>
+        <item name="bottomSheetDialogTheme">@style/Frames.BottomSheetDialog</item>
+        <item name="navigationViewStyle">@style/Widget.Frames.NavigationView</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item>
+        <item name="bottomNavigationStyle">@style/Widget.Frames.BottomNavigationView</item>
+
+        <item name="shapeAppearanceSmallComponent">
+            @style/ShapeAppearance.Frames.SmallComponent
+        </item>
+        <item name="shapeAppearanceMediumComponent">
+            @style/ShapeAppearance.Frames.MediumComponent
+        </item>
+        <item name="shapeAppearanceLargeComponent">
+            @style/ShapeAppearance.Frames.LargeComponent
+        </item>
+    </style>
+
+    <style name="Widget.Frames.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@drawable/bottom_navigation_states</item>
+        <item name="itemTextColor">@drawable/bottom_navigation_states_text</item>
+    </style>
+
+    <style name="Widget.Frames.ViewerBottomNavigationView" parent="Widget.Frames.BottomNavigationView">
+        <item name="itemRippleColor">@color/viewer_item_ripple</item>
+        <item name="itemIconTint">@drawable/bottom_actions_states</item>
+        <item name="itemTextColor">@drawable/bottom_actions_states_text</item>
+    </style>
+
+</resources>
