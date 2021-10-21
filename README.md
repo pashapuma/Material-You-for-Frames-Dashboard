@@ -1,6 +1,9 @@
  ![Image](https://raw.githubusercontent.com/pashapuma/Material-You-for-Frames-Dashboard/main/image/git.png)
   
-# Material-You-for-Frames-Dashboard
+# Material You Theme for Frames Dashboard
+
+[Frames Dashboard](https://github.com/jahirfiquitiva/Frames)
+
 Copy everything into your Frames project, edit colors, corner radius...
 
 Use ```compileSdk = 31```
